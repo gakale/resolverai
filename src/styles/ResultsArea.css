@@ -1,0 +1,41 @@
+/* ResultsArea.css */
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .result-block {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 600px; /* ou la largeur que vous préférez */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .text-response {
+    font-family: 'Handwriting', cursive; /* Utilisez une police d'écriture manuscrite si disponible */
+    white-space: pre-wrap; /* Prend en charge les sauts de ligne dans le texte */
+    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+    border-right: 2px solid;
+    margin: 0 auto;
+  }
+  
+  /* Animation d'effet d'écriture */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  

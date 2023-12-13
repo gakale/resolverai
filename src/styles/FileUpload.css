@@ -1,0 +1,46 @@
+/* FileUpload.css */
+
+.file-upload-form {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3; /* Couleur de fond du formulaire */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden; /* Empêche les enfants de déborder */
+  padding: 8px 16px;
+}
+
+.custom-file-upload {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.file-input {
+  display: none; /* Cache le champ de fichier par défaut */
+}
+
+.text-input {
+  border: none;
+  flex-grow: 1; /* Permet au champ texte de prendre toute la largeur disponible */
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-right: 16px; /* Espace entre le champ texte et le bouton d'envoi */
+}
+
+.submit-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* Ajustez la taille comme vous le souhaitez */
+  padding: 8px 16px;
+}
+
+.text-input:focus, .submit-button:focus {
+  outline: none; /* Supprime la bordure de focus par défaut pour un look personnalisé */
+}
+.loading-indicator {
+  position: absolute;
+  /* Positionnez et stylisez votre indicateur de chargement comme vous le souhaitez */
+}
