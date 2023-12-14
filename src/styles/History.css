@@ -1,0 +1,26 @@
+/* History.css */
+
+.history-container {
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .history-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .history-item:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .history-delete {
+    color: #ff4444;
+    float: right;
+    cursor: pointer;
+  }
+  
